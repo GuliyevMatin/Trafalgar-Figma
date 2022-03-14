@@ -1,0 +1,11 @@
+@import url("./UI/reset.css");
+@import url("./UI/font.css");
+@import url("./variables.css");
+
+
+/* Layouts */
+@import url("./layouts/header.css");
+@import url("./layouts/footer.css");
+
+/* Pages */
+@import url("./pages/homePage.css");

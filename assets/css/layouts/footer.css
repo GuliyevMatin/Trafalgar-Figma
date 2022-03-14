@@ -1,0 +1,39 @@
+.footer{
+    display: flex;  
+   
+}
+.footer-left{
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+}
+.footer-left-logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 23px;
+}
+.footer-left-logo p{
+    font-family: var(--fontMullish);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--colorWhite);
+}
+
+.footer-left-text{
+    font-family: var(--fontMullish);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--colorWhite);
+    margin-bottom: 34px;
+}
+.copy{
+    font-family: var(--fontMullish);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--colorWhite);
+}
+.footer-right{
+    display: flex;
+    flex: 50%;
+}
