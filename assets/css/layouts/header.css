@@ -19,7 +19,8 @@ header {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  background-color: #fff;
+  background-color: #e5e5e5;
+  box-shadow: 0 0 10px 0 gray;
   padding:0 100px;
   z-index: 999;
   
