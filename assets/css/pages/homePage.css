@@ -40,6 +40,11 @@
   font-family: var(--fontMullish);
   font-weight: 700;
   font-size: 18px;
+  transition: all 0.5s;
+  
+}
+.virtual-link:hover{
+  background-image: linear-gradient(to right, var(--colorBlue), rgb(250,152,209));
 }
 .right-virtual {
   width:50%;
@@ -54,6 +59,7 @@
 /* Our Services */
 .services {
   margin-top: 100px;
+  
 }
 .services-header {
   display: flex;
@@ -83,18 +89,25 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
+.card-icon{
 
+  position: absolute;
+  right: 5%;
+  top: 35%;
+}
 
 .card-item {
   width: 25%;
   background-color: var(--colorWhite);
   padding: 39px;
-  margin: 37px 34px;
+  margin: 27px 34px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   transition: all 0.5s;
   cursor: pointer;
+  z-index: 2;
 }
 
 .card-item:hover{
@@ -131,6 +144,11 @@
     font-family: var(--fontMullish);
     font-weight: 700;
     font-size: 18px;
+    transition: all 0.5s;
+}
+.cards-more:hover{
+  background-color: var(--colorBlue);
+  color: var(--colorWhite);
 
 }
 
@@ -253,9 +271,9 @@ line-height: 30px;
 .article-body{
   display: flex;
 }
-/* .article-card h5,p,a{
-padding: 0 40px;
-} */
+.article-card{
+margin-right: 20px;
+}
 .article-card img{
   border-radius:20px 50px 0 0;
   object-fit: cover;
@@ -296,6 +314,11 @@ padding: 0 40px;
   border: 1px solid var(--colorBlue);
   border-radius: 55px;
   color: var(--colorBlue);
+  transition: all 0.5s;
 }
 
+.articles-more:hover{
+  background-color: var(--colorBlue);
+  color: var(--colorWhite);
+}
 

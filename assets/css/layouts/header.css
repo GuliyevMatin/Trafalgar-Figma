@@ -21,7 +21,7 @@ header {
   top: 0;
   background-color: #fff;
   padding:0 100px;
-  
+  z-index: 999;
   
 }
 .logo {
@@ -40,6 +40,10 @@ header {
   font-family: var(--fontMullish);
   font-weight: 700;
   font-size: 24px;
+  animation-name:logo ;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .navbar {
   display: flex;

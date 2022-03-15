@@ -1,0 +1,12 @@
+@keyframes logo {
+    0%{
+         color: var(--colorBlack); 
+        font-size: 24px; 
+    }
+    100%
+    {
+        color: var(--colorBlue);
+        font-size: 30px;
+    
+    }
+}
