@@ -7,7 +7,6 @@
 }
 .virtual {
   display: flex;
-  /* justify-content: space-evenly; */
   margin-top: 50px;
 }
 .left-virtual {
@@ -85,6 +84,8 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
 .card-item {
   width: 25%;
   background-color: var(--colorWhite);
@@ -92,6 +93,14 @@
   margin: 37px 34px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card-item:hover{
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1.1);
 }
 .card-item img{
     height:95px;
@@ -283,7 +292,7 @@ padding: 0 40px;
   width: 20%;
   margin: 100px auto;
   text-align: center;
-  padding: 20px 56px;
+  padding: 15px 5px;
   border: 1px solid var(--colorBlue);
   border-radius: 55px;
   color: var(--colorBlue);

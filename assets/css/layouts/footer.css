@@ -1,11 +1,21 @@
+footer{
+    position: relative;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer-icon{
+    position: absolute;
+    bottom: 0;left: 0;
+}
+
 .footer{
+    padding:70px 50px;
     display: flex;  
-   
 }
 .footer-left{
     display: flex;
-    flex: 50%;
+    flex: 3;
     flex-direction: column;
+    
 }
 .footer-left-logo{
     display: flex;
@@ -14,6 +24,7 @@
     margin-bottom: 23px;
 }
 .footer-left-logo p{
+    margin-left: 12px;
     font-family: var(--fontMullish);
     font-weight: 700;
     font-size: 24px;
@@ -26,6 +37,7 @@
     font-size: 18px;
     color: var(--colorWhite);
     margin-bottom: 34px;
+    line-height:28px;
 }
 .copy{
     font-family: var(--fontMullish);
@@ -35,5 +47,27 @@
 }
 .footer-right{
     display: flex;
-    flex: 50%;
+    justify-content: space-around;
+    flex: 5;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+}
+.company h5{
+    font-family: var(--fontMullish);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--colorWhite);
+    margin-bottom: 35px;
+}
+
+.company a{
+
+    font-family: var(--fontMullish);
+    font-weight: 300;
+    color: var(--colorWhite);
+    font-size: 18px;
+    margin-bottom: 20px;
 }
